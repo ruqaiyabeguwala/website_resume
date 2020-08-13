@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+html,
+body {
+  height: 100%;
+  background-color: #f5f9fc;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 22em;
+  max-width: 80%;
+  padding: 2em 0;
+  background: #fff;
+  box-shadow: 0 0 6px 0 rgba(#202024, 0.12);
+  transition: all 0.35s ease;
+  //transition-delay: 0.5s;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    height: 4px;
+  }
+
+  &::before {
+    width: 0;
+    opacity: 0;
+    transition: opacity 0 ease, width 0 ease;
+    transition-delay: 0.5s;
+  }
+
+  &::after {
+    width: 100%;
+    background: white;
+    transition: width 0.5s ease;
+  }
+
+  .content {
+    width: 18em;
+    max-width: 80%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .logo {
+    margin: auto;
+    margin-bottom: 0.5em;
+    width: 10.625em;
+    transition: all 0.35s ease;
+    align-content: center;
+  }
+
+  .txt {
+    color: #999;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+  .hover_content {
+    overflow: hidden;
+    max-height: 0;
+    transform: translateY(1em);
+    transition: all 0.55s ease;
+
+    p {
+      margin: 1.5em 0 0;
+      color: #6e6e70;
+      line-height: 1.4em;
+    }
+  }
+
+  &:hover {
+    width: 22em;
+    // margin-top: 40px;
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 20px 0 rgba(#202024, 0.12);
+    // min-height: 500px;
+
+    &::before {
+      width: 100%;
+      opacity: 1;
+      transition: opacity 0.5s ease, width 0.5s ease;
+      transition-delay: 0;
+    }
+
+    &::after {
+      width: 0;
+      opacity: 0;
+      transition: width 0 ease;
+    }
+
+    .logo {
+      margin-bottom: 0.5em;
+    }
+
+    .hover_content {
+      min-height: 18em;
+      transform: none;
+    }
+  }
+}
+@media screen and (max-width: 370px) {
+  .txt {
+    font-size: medium;
+  }
+}

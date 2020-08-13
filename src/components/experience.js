@@ -12,12 +12,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     margin: "auto",
     marginTop: 50,
-    //flexGrow: 1,
     minHeight: 250,
-    // width: 400,
-    //padding: 40,
-    //   border: "1px solid #005474",
-    //  boxShadow:"1px 1px 1px 1px  #0079A7"
     transition: "all 0.2s ease-in-out",
     "&:hover": {
       transform: "scale(1.02)",

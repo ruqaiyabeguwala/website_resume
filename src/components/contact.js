@@ -115,7 +115,8 @@ function Contact() {
         },
         function (error) {
           setLoading(false);
-          setMessage(`Error sending your message! ${error}`);
+          setMessage(`Error sending your message!`);
+          console.log("error message", error);
           setSev("error");
           setClicked(true);
         }

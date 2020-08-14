@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/website_resume/static/css/main.065b9cd3.chunk.css",
-    "main.js": "/website_resume/static/js/main.49b5bb6d.chunk.js",
-    "main.js.map": "/website_resume/static/js/main.49b5bb6d.chunk.js.map",
-    "runtime-main.js": "/website_resume/static/js/runtime-main.3d53dcfc.js",
-    "runtime-main.js.map": "/website_resume/static/js/runtime-main.3d53dcfc.js.map",
+    "main.js": "/website_resume/static/js/main.5380a4e7.chunk.js",
+    "main.js.map": "/website_resume/static/js/main.5380a4e7.chunk.js.map",
+    "runtime-main.js": "/website_resume/static/js/runtime-main.ffa01c99.js",
+    "runtime-main.js.map": "/website_resume/static/js/runtime-main.ffa01c99.js.map",
     "static/css/2.4707e12a.chunk.css": "/website_resume/static/css/2.4707e12a.chunk.css",
-    "static/js/2.81f4028c.chunk.js": "/website_resume/static/js/2.81f4028c.chunk.js",
-    "static/js/2.81f4028c.chunk.js.map": "/website_resume/static/js/2.81f4028c.chunk.js.map",
+    "static/js/2.51fb0002.chunk.js": "/website_resume/static/js/2.51fb0002.chunk.js",
+    "static/js/2.51fb0002.chunk.js.map": "/website_resume/static/js/2.51fb0002.chunk.js.map",
     "index.html": "/website_resume/index.html",
-    "precache-manifest.31081373f9b36b107664a0aefa030ff1.js": "/website_resume/precache-manifest.31081373f9b36b107664a0aefa030ff1.js",
+    "precache-manifest.db2fd8cc6f1e9a0a58a7c4cb561b2844.js": "/website_resume/precache-manifest.db2fd8cc6f1e9a0a58a7c4cb561b2844.js",
     "service-worker.js": "/website_resume/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/website_resume/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.065b9cd3.chunk.css.map": "/website_resume/static/css/main.065b9cd3.chunk.css.map",
-    "static/js/2.81f4028c.chunk.js.LICENSE.txt": "/website_resume/static/js/2.81f4028c.chunk.js.LICENSE.txt",
+    "static/js/2.51fb0002.chunk.js.LICENSE.txt": "/website_resume/static/js/2.51fb0002.chunk.js.LICENSE.txt",
     "static/media/Android.jpg": "/website_resume/static/media/Android.1878af43.jpg",
     "static/media/amcat.jpg": "/website_resume/static/media/amcat.4c7b41cd.jpg",
     "static/media/bloodss.png": "/website_resume/static/media/bloodss.98872e79.png",
@@ -31,10 +31,10 @@
     "static/media/wb.png": "/website_resume/static/media/wb.6ba96a1b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d53dcfc.js",
+    "static/js/runtime-main.ffa01c99.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.81f4028c.chunk.js",
+    "static/js/2.51fb0002.chunk.js",
     "static/css/main.065b9cd3.chunk.css",
-    "static/js/main.49b5bb6d.chunk.js"
+    "static/js/main.5380a4e7.chunk.js"
   ]
 }

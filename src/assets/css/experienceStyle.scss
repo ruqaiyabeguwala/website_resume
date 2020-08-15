@@ -93,7 +93,7 @@ body {
     // margin-top: 40px;
     transition: all 0.5s ease;
     box-shadow: 0 10px 20px 0 rgba(#202024, 0.12);
-    // min-height: 500px;
+    // min-height: 200px;
 
     &::before {
       width: 100%;
@@ -118,8 +118,24 @@ body {
     }
   }
 }
+@media screen and (max-width: 1000px) {
+  .card {
+    &:hover {
+      .hover_content {
+        min-height: 25em;
+      }
+    }
+  }
+}
 @media screen and (max-width: 370px) {
   .txt {
     font-size: medium;
+  }
+  .card {
+    &:hover {
+      .hover_content {
+        min-height: 40em;
+      }
+    }
   }
 }

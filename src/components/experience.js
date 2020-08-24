@@ -59,8 +59,8 @@ export default function Experience() {
         data-aos-duration="1000"
       >
         <div className="content">
-          <Typography color="primary" className="logo">
-            <WorkIcon fontSize="large" />
+          <Typography color="primary" className="logo" >
+            <WorkIcon fontSize="large"/>
           </Typography>
           <Typography
             justify="center"
@@ -76,13 +76,13 @@ export default function Experience() {
           <Typography variant="body2" component="p" className="hover_content">
             <p>
               Working for <b>Lincoln Financial group</b> in the organization. It
-              is a huge project but in laymen terms, LFG deals with all type of
-              insurance products; whether it is Life Insurances or Term
+              is a huge project but in laymen terms LFG deals with all types of
+              insurance products; whether it is Life Insurance or Term
               Insurance or Annuities. I work with the Life team. My role in the
-              project is to enhance the system; by changing UI using HTML ,CSS
-              etc., managing and changing state using ReactJs and Redux or
-              optimising some background activities( majorly by updating the API
-              using NodeJS and MongoDB).
+              project is towards enhancement; by changing UI using HTML , CSS, Bootstrap
+              etc., managing and changing state using ReactJs and Redux,
+              optimising some background activities (majorly by updating the API
+              using NodeJS and MongoDB) and unit testing using Chai/Mocha.
             </p>
           </Typography>
         </div>

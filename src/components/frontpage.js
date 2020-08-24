@@ -27,7 +27,7 @@ export default function FrontPage(props) {
       id="up"
     >
       <Header
-        brand="RUQAIYA BEGUWALA"
+        brand="RUQAIYA"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"

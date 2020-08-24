@@ -60,11 +60,11 @@ body {
   }
 
   .logo {
-    margin: auto;
+   // margin: auto;
     margin-bottom: 0.5em;
-    width: 10.625em;
+    //width: 2.625em;
     transition: all 0.35s ease;
-    align-content: center;
+   // align-content: center;
   }
 
   .txt {
@@ -113,7 +113,7 @@ body {
     }
 
     .hover_content {
-      min-height: 18em;
+      max-height: 20em;
       transform: none;
     }
   }
@@ -134,7 +134,7 @@ body {
   .card {
     &:hover {
       .hover_content {
-        min-height: 40em;
+        max-height:50em;
       }
     }
   }

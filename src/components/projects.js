@@ -202,7 +202,7 @@ function SwipeableTextMobileStepper() {
               </div>
             </Grid>
             <Grid sm={6}>
-              <div style={{ margin: "10px", alignContent: "center" }}>
+              <div style={{  alignContent: "center" }}>
                 <p
                   style={{
                     color: "#3c5295",

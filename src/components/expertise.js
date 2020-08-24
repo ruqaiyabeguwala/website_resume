@@ -65,6 +65,18 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "12px",
     },
   },
+  [theme.breakpoints.down("xs")]: {
+    grid: {
+      // padding: "60px",
+    },
+    myProgress: {
+      width: "170px",
+    },
+    paper: {
+      padding: theme.spacing(3),
+      fontSize: "12px",
+    },
+  },
 }));
 
 const languages = [
@@ -78,7 +90,7 @@ const languages = [
 const tools = [
   { tech: "Postman", per: 70 },
   { tech: "Git", per: 80 },
-  { tech: "Chai/Mocha", per: 50 },
+  { tech: "Chai/Mocha", per: 70 },
   { tech: "Jira", per: 75 },
   { tech: "VScode", per: 80 },
 ];

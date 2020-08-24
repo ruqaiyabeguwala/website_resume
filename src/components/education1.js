@@ -76,7 +76,7 @@ export default function Education() {
             name=" Secondary School Certificate"
             year="2011-2012"
             desc=" Got 90% ! This was the moment I had to choose a optional 
-    subject and I took Computer Science,without much thought;preferably 
+    subject and I took Computer Science without much thought; preferably 
     my best decision till now. "
             institute="Dashpur Vidyalaya, Mandsaur (M.P.)"
             delay="1000"

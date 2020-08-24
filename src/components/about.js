@@ -49,6 +49,23 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "12px",
     },
   },
+   [theme.breakpoints.down("sm")]: {
+    root: {
+      marginTop: "100px",
+    },
+    img: {
+      width: "150px",
+      height: "150px",
+      margin: "auto",
+    },
+    paper: {
+      //  padding: theme.spacing(2),
+      fontSize: "10px",
+    },
+    typo: {
+      fontSize: "12px",
+    },
+  },
 }));
 
 export default function AutoGrid() {
@@ -86,21 +103,21 @@ export default function AutoGrid() {
           >
             <Grid item md>
               <Typography className={classes.typo}>
-                Hey There! This is Ruqaiya Beguwala, brought up in a small
-                district but have bigger and bigger dreams for life. I love to
-                travel whether it is some other City,Country or maybe in my own
-                messy brain. I love to travel to a different world as well;
-                obviously through books. I like more and more adventures in my
-                life, thats why could not stop myself to choose becoming a full
-                stack developer. I like making my day finished with the
+                Hey There! This is <b>Ruqaiya Beguwala</b>, brought up in a small
+                district but having bigger and bigger dreams for life. I love to
+                travel; whether it is some City,Country or maybe in my own
+                messy brain. I love to roam around in a different world as well;
+                create adventures in mind through books. I cherish more and more adventures in my
+                life, thats why could not stop myself to choose becoming a developer. 
+                I fancy making my day complete with the
                 happiness of clearing a bug or make a code work(If you are a
-                developer too, I hope you understand my happiness). It has been
-                great till yet but I would love some more adventures in my life.
-                I am looking for a position as MERN stack developer where I can
+                developer too, I hope you understand the bliss). It has been
+                great till now but I would appreciate some more adventures in my life.
+                I am looking for a position as <b>MERN stack developer</b> where I can
                 create some more happiness for you and afcourse for me too. If
                 you have any opportunity or think someone else might have for
-                me, please free to ping me. I would love to work as a freelancer
-                as well.
+                me, please feel free to <b>connect</b>. I would love to work as a <b>freelancer
+                </b> as well.
               </Typography>
             </Grid>
           </Grid>

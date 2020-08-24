@@ -78,14 +78,14 @@ function getSteps() {
       name: " Secondary School Certificate",
       year: "2011-2012",
       desc:
-        " Got 90% ! This was the moment I had to choose a optional subject and I took Computer Science,without much thought;preferably my best decision till now. ",
+        " Got 90% ! This was the moment I had to choose a optional subject and I took Computer Science without much thought; preferably my best decision till now. ",
       institute: "Dashpur Vidyalaya, Mandsaur (M.P.)",
     },
     {
       name: "Higher Secondary school Certificate",
       year: "2013-2014",
       desc:
-        " Achieved 91.6% !  Being the Head Girl ,I learned to lead all the students and to help them for a better environment at school. I had Computer Science as my optional subject and it was the time I realised that coding is what will take me to the skies.",
+        " Achieved 91.6% !  Being the Head Girl ,I learned to lead all the students and to help them for a better environment at school. I had Computer Science as my optional subject and it was the time I realised that coding is what will take me to the heights.",
       institute: "Dashpur Vidyalaya, Mandsaur (M.P.)",
     },
     {

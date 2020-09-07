@@ -34,6 +34,9 @@ const parallaxStyle = (theme) => ({
       content: "''",
     },
   },
+  h:{
+    fontSize:"40px"
+  },
   small: {
     height: "380px",
   },
@@ -53,7 +56,14 @@ const parallaxStyle = (theme) => ({
     write: {
       margin: "0px 30px",
       fontSize: "12px",
+    },btn:{
+      width:"150px",
+      fontSize:"10px"
     },
+    h:{
+      fontSize:"25px",
+     // marginBottom:"50px"
+    }
   },
 });
 

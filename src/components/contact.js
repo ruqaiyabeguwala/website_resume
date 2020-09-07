@@ -36,9 +36,14 @@ const useStyles = makeStyles((theme) => ({
     // width: "100%",
     //margin: "30px 23px",
   },
+  icon:{
+    fontSize:"17px",
+    marginRight:"5px"
+  },
 
   card: {
     margin: "auto",
+    marginTop:"100px",
     width: "300px",
     minHeight: 250,
     padding: "70px",
@@ -50,9 +55,9 @@ const useStyles = makeStyles((theme) => ({
 
   [theme.breakpoints.down("sm")]: {
     card: {
-      // maxWidth: "150px",
-      // minHeight: "150px",
-      padding: "20px",
+       maxWidth: "200px",
+       minHeight: "200px",
+      padding: "30px",
       marginTop: "80px",
     },
     root: {
@@ -62,17 +67,27 @@ const useStyles = makeStyles((theme) => ({
       minHeight: "500px",
     },
     txt: {
-      fontSize: "15px",
+      fontSize: "12px",
     },
+    btn:{
+      fontSize:"12px"
+    },
+    icon:{
+      fontSize:"12px"
+    }
   },
   [theme.breakpoints.down("xs")]: {
     card: {
-      maxWidth: "150px",
-      minHeight: "100px",
+      maxWidth: "180px",
+      minHeight: "130px",
       margin: "auto",
+      marginTop:"60px",
       padding: "10px",
       // marginTop: "40px",
     },
+    icon:{
+      fontSize:"10px"
+    }
   },
 }));
 
@@ -145,7 +160,7 @@ function Contact() {
           <FormGroup>
             <FormControl>
               <InputLabel>
-                <PersonIcon style={{ fontSize: "17px" }} />
+                <PersonIcon className={classes.icon}/>
                 <b className={classes.txt}>Name</b>
               </InputLabel>
               <Input
@@ -168,7 +183,7 @@ function Contact() {
           <FormGroup>
             <FormControl>
               <InputLabel htmlFor="email">
-                <MailIcon style={{ fontSize: "17px" }} />{" "}
+                <MailIcon className={classes.icon} />
                 <b className={classes.txt}>Email</b>
               </InputLabel>
               <Input
@@ -193,7 +208,7 @@ function Contact() {
           <FormGroup>
             <FormControl>
               <InputLabel htmlFor="msg">
-                <MessageIcon style={{ fontSize: "17px" }} />{" "}
+                <MessageIcon className={classes.icon}/>
                 <b className={classes.txt}>Message</b>
               </InputLabel>
               <Input
@@ -228,7 +243,7 @@ function Contact() {
             >
               {" "}
               <b className={classes.txt}>Send</b>{" "}
-              <SendIcon style={{ marginLeft: 10 }} />
+              <SendIcon className={classes.icon} />
             </Button>
           </FormGroup>
           {clicked && <Snackbar message={message} sev={sev} />}

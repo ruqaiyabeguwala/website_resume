@@ -14,8 +14,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(6),
-    // margin: "50",
-    //width: "100%",
     maxWidth: 1400,
     minHeight: 550,
     margin: "auto",
@@ -43,29 +41,13 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
       //  padding: theme.spacing(2),
-      fontSize: "10px",
+      fontSize: "12px",
     },
     typo: {
       fontSize: "12px",
     },
   },
-   [theme.breakpoints.down("sm")]: {
-    root: {
-      marginTop: "100px",
-    },
-    img: {
-      width: "150px",
-      height: "150px",
-      margin: "auto",
-    },
-    paper: {
-      //  padding: theme.spacing(2),
-      fontSize: "10px",
-    },
-    typo: {
-      fontSize: "12px",
-    },
-  },
+  
 }));
 
 export default function AutoGrid() {
@@ -78,7 +60,7 @@ export default function AutoGrid() {
     <div className={classes.root} id="about">
       <Paper className={classes.paper}>
         <h1>About</h1>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} style={{marginTop:"50px"}}>
           <Grid
             item
             md={5}

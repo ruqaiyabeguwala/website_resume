@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
       // width: "200",
     },
     img: {
-      width: "200px",
+      width: "220px",
       height: "180px",
       margin: "auto",
     },
@@ -78,12 +78,9 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "14px",
     },
     overlay: {
-      margin: "40px 15px",
-    },
-  },
-  [theme.breakpoints.down("lg")]: {
-    grid: {
-      // width: "300",
+     margin: "45px 10px",
+      //contentAlign:"center",
+     // textAlign:"center"
     },
   },
 }));

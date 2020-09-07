@@ -64,17 +64,13 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(3),
       fontSize: "12px",
     },
+    name:{
+      fontSize:"9px"
+    }
   },
   [theme.breakpoints.down("xs")]: {
-    grid: {
-      // padding: "60px",
-    },
     myProgress: {
       width: "170px",
-    },
-    paper: {
-      padding: theme.spacing(3),
-      fontSize: "12px",
     },
   },
 }));

@@ -27,7 +27,7 @@ export default function FrontPage(props) {
       id="up"
     >
       <Header
-        brand="RUQAIYA"
+        brand="RUQAIYA BEGUWALA"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -45,7 +45,8 @@ export default function FrontPage(props) {
       >
         <div className={classes.write} id="wrap">
           <h1
-            //style={{ fontSize: "40px" }}
+            
+            className={classes.h}
             data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
             data-aos-delay="500"

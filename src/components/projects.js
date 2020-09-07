@@ -21,55 +21,55 @@ const tutorialSteps = [
   {
     label: "Blood Bank",
     desc:
-      "This project was designed to make blood donation and retrieval process online. The needy person need not go bank-to-bank in search of blood.",
+      "This application is designed to make blood donation and retrieval process online. The individual need not go bank-to-bank in search of blood.",
     imgPath: blood,
     href: "https://github.com/ruqaiyabeguwala/bloodbank_website",
     hl1: "Created with HTML,CSS,Bootstrap,PHP and MYSQL | Android",
-    hl2: "It can donate you blood by booking an appointment on nearby hospital",
+    hl2: "Blood donation becomes pretty straightforward; by booking an appointment at nearby hospital",
     hl3:
-      "It can retrieve information about blood avaiable in nearby hospitals and book an appointment to collect",
+      "Retrieve information about blood avaiable in nearby hospitals and book an appointment to collect",
     hl4:
-      "Upon successfull blood donation, you receive a appriciation certificate",
-    hl5: "It also consists of an android application for easy access",
+      "Upon successfull blood donation, receive an appreciation certificate",
+    hl5: "An android application for ease of access",
   },
   {
     label: "Medical Store",
     desc:
-      "This has been created for my own Medical store in Pratapgarh ,Rajasthan to keep track for all medicines in the stock.",
+      "Application developed for my own Medical store in Pratapgarh ,Rajasthan to keep track for all medicines in the stock and obtain their insights.",
     href: "https://github.com/ruqaiyabeguwala/shagunMedicalStore",
     imgPath: med,
     hl1: "Created with HTML,CSS,Bootstrap,PHP and MYSQL",
     hl2:
-      "Manage in and out of medicines on a single click(let you know the total profit there only)",
-    hl3: "Show expired medicines with alert",
-    hl4: "Download full report of expenses on single click",
-    hl5: "Search for any medicine and with its detail(and expiry date)",
+      "Manage buy and sell of medicines on a single click( fetch profit for every medicine)",
+    hl3: "Notify about expired/expiring medicines ",
+    hl5: "Download full report of daily expense in xls format ",
+    hl4: "Search for any medicine with its details and expiry date",
   },
   {
     label: "College Insights",
     href: "https://github.com/ruqaiyabeguwala/college_insights",
     desc:
-      "This website was designed to manage the college assets and to provide a easy access for teachers and students",
+      "This website is designed to manage the college assets and to provide a easy access for teachers and students",
     imgPath: clg,
     hl1:
       "Created with ReactJs, ReactStrap, Redux, NodeJs, ExpressJs and MongoDB",
-    hl2: "It keep track of all students with their attendances",
-    hl3: "It also keep track of all teachers and their respective classes",
+    hl2: "Keeps track of all students with their personal info and attendances",
+    hl3: "Keeps track of all teachers and their respective classes",
     hl4:
-      "Manages overall attendance percentage, which when go less than 75%, alert their parents",
-    hl5: "Provided 3rd party login with Google and Facebook",
+      "Manages overall attendance percentage, which when go less than 75%, notify their parents",
+    hl5: "Third party signup with Google and Facebook.",
   },
   {
     label: "Website Resume",
     href: "https://github.com/ruqaiyabeguwala/website_resume",
     desc:
-      "As the name clears, this website deals with all the aspects of my life related to Coding.",
+      "As the name clears, this website deals with all the aspects of my life associated with coding.",
     imgPath: wb,
     hl1: "Created with ReactJS and Material UI ",
     hl2:
-      "Consist of full specification of my education, experience, expertise, projects and achievements ",
-    hl3: "Direct link to all of my social accounts (or email)",
-    hl4: "Download my resume on a single click",
+      "Consists of full specification of my education, experience, expertise, projects and achievements ",
+    hl3: "Direct link to all of my social accounts and email.",
+    hl4: "Download my resume at a push of a button.",
     hl5: "You can directly send me a message (Contact section). ",
   },
 ];
@@ -93,6 +93,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
     textAlign: "center",
     color: "white",
+    marginTop:"40px"
   },
   img: {
     height: 300,
@@ -168,6 +169,7 @@ function SwipeableTextMobileStepper() {
         data-aos="flip-up"
         data-aos-delay="300"
         data-aos-duration="1000"
+        
       >
         <Typography style={{ textAlign: "center" }}>
           {tutorialSteps[activeStep].label}

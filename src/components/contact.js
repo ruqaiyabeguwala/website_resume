@@ -43,10 +43,10 @@ const useStyles = makeStyles((theme) => ({
 
   card: {
     margin: "auto",
-    marginTop:"100px",
-    width: "300px",
+    marginTop:"50px",
+    width: "250px",
     minHeight: 250,
-    padding: "70px",
+    padding: "50px",
     boxShadow: "0 10px 20px 0 rgba(#202024, 0.12)",
     borderRadius: "4%",
     backgroundImage: `url("${blur}")`,
@@ -81,8 +81,8 @@ const useStyles = makeStyles((theme) => ({
       maxWidth: "180px",
       minHeight: "130px",
       margin: "auto",
-      marginTop:"60px",
-      padding: "10px",
+      marginTop:"80px",
+      padding: "20px",
       // marginTop: "40px",
     },
     icon:{
@@ -242,8 +242,8 @@ function Contact() {
               style={{ background: "#616aae", color: "white" }}
             >
               {" "}
-              <b className={classes.txt}>Send</b>{" "}
-              <SendIcon className={classes.icon} />
+              <b className={classes.txt}>Send Message!</b>
+              {/* <SendIcon className={classes.icon} /> */}
             </Button>
           </FormGroup>
           {clicked && <Snackbar message={message} sev={sev} />}

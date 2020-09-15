@@ -64,7 +64,7 @@ export default function FrontPage(props) {
             color="primary"
             data-aos="zoom-in"
             data-aos-delay="1500"
-            href="https://drive.google.com/file/d/12SUaCpEToXZ8Lmvl1Hof6K-rey9f14Bu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1C9l4Bdl2cDYcG_xGVZclUx758jITChjr/view?usp=sharing"
           >
             <CloudDownloadIcon /> Download resume
           </Button>

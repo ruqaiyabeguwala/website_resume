@@ -76,19 +76,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const languages = [
-  { tech: "React/Redux", per: 85 },
-  { tech: "NodeJS/ExpressJs", per: 70 },
-  { tech: "MongoDB", per: 60 },
+  { tech: "React/Redux", per: 80 },
+  { tech: "NodeJS/ExpressJs", per: 60 },
+  { tech: "MongoDB/MySQL", per: 60 },
   { tech: "HTML/CSS/Bootstrap", per: 90 },
-  { tech: "JavaScript", per: 80 },
+  { tech: "JavaScript", per: 70 },
 ];
 
 const tools = [
   { tech: "Postman", per: 70 },
   { tech: "Git", per: 80 },
-  { tech: "Chai/Mocha", per: 70 },
+  { tech: "Jest/Enzyme", per: 70 },
   { tech: "Jira", per: 75 },
-  { tech: "VScode", per: 80 },
+  { tech: "Chai/Mocha", per: 60 },
 ];
 
 export default function Expertise() {

@@ -90,12 +90,12 @@ export default function AutoGrid() {
                 travel; whether it is some City,Country or maybe in my own
                 messy brain. I love to roam around in a different world as well;
                 create adventures in mind through books. I cherish more and more adventures in my
-                life, thats why could not stop myself to choose becoming a developer. 
+                life, that's why could not stop myself to choose becoming a developer. 
                 I fancy making my day complete with the
                 happiness of clearing a bug or make a code work(If you are a
                 developer too, I hope you understand the bliss). It has been
                 great till now but I would appreciate some more adventures in my life.
-                I am looking for a position as <b>MERN stack developer</b> where I can
+                I am looking for a position as <b>Frontend developer</b> where I can
                 create some more happiness for you and afcourse for me too. If
                 you have any opportunity or think someone else might have for
                 me, please feel free to <b>connect</b>. I would love to work as a <b>freelancer

@@ -58,7 +58,7 @@ const parallaxStyle = (theme) => ({
       fontSize: "12px",
     },btn:{
       width:"150px",
-      fontSize:"10px"
+      fontSize:"12px"
     },
     h:{
       fontSize:"25px",

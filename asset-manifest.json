@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/website_resume/static/css/main.23e2db3c.chunk.css",
-    "main.js": "/website_resume/static/js/main.d9d56d40.chunk.js",
-    "main.js.map": "/website_resume/static/js/main.d9d56d40.chunk.js.map",
+    "main.js": "/website_resume/static/js/main.b4b97b3f.chunk.js",
+    "main.js.map": "/website_resume/static/js/main.b4b97b3f.chunk.js.map",
     "runtime-main.js": "/website_resume/static/js/runtime-main.ffa01c99.js",
     "runtime-main.js.map": "/website_resume/static/js/runtime-main.ffa01c99.js.map",
     "static/css/2.4707e12a.chunk.css": "/website_resume/static/css/2.4707e12a.chunk.css",
-    "static/js/2.51fb0002.chunk.js": "/website_resume/static/js/2.51fb0002.chunk.js",
-    "static/js/2.51fb0002.chunk.js.map": "/website_resume/static/js/2.51fb0002.chunk.js.map",
+    "static/js/2.ec0d093e.chunk.js": "/website_resume/static/js/2.ec0d093e.chunk.js",
+    "static/js/2.ec0d093e.chunk.js.map": "/website_resume/static/js/2.ec0d093e.chunk.js.map",
     "index.html": "/website_resume/index.html",
-    "precache-manifest.6a4a40dea8bef1a3488e8a2bd752221e.js": "/website_resume/precache-manifest.6a4a40dea8bef1a3488e8a2bd752221e.js",
+    "precache-manifest.09829f7633f679b68ab0da28672c8006.js": "/website_resume/precache-manifest.09829f7633f679b68ab0da28672c8006.js",
     "service-worker.js": "/website_resume/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/website_resume/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.23e2db3c.chunk.css.map": "/website_resume/static/css/main.23e2db3c.chunk.css.map",
-    "static/js/2.51fb0002.chunk.js.LICENSE.txt": "/website_resume/static/js/2.51fb0002.chunk.js.LICENSE.txt",
+    "static/js/2.ec0d093e.chunk.js.LICENSE.txt": "/website_resume/static/js/2.ec0d093e.chunk.js.LICENSE.txt",
     "static/media/Android.jpg": "/website_resume/static/media/Android.1878af43.jpg",
     "static/media/amcat.jpg": "/website_resume/static/media/amcat.4c7b41cd.jpg",
     "static/media/bloodss.png": "/website_resume/static/media/bloodss.98872e79.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.ffa01c99.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.51fb0002.chunk.js",
+    "static/js/2.ec0d093e.chunk.js",
     "static/css/main.23e2db3c.chunk.css",
-    "static/js/main.d9d56d40.chunk.js"
+    "static/js/main.b4b97b3f.chunk.js"
   ]
 }

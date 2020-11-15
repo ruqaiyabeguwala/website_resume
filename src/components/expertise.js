@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   h3: {
     color: "#676767",
     fontWeight: "bold",
-    marginBottom: "30px",
+    marginBottom: "20px",
     fontSize: "20px",
   },
   name: {
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
 const languages = [
   { tech: "React/Redux", per: 80 },
   { tech: "NodeJS/ExpressJs", per: 60 },
-  { tech: "MongoDB/MySQL", per: 60 },
+  { tech: "MongoDB", per: 60 },
   { tech: "HTML/CSS/Bootstrap", per: 90 },
   { tech: "JavaScript", per: 70 },
 ];
@@ -119,7 +119,7 @@ export default function Expertise() {
   return (
     <Paper className={classes.paper} id="expertise" variant="outlined">
       <h1>Expertise</h1>
-      <Grid container style={{ marginTop: "40px" }}>
+      <Grid container style={{ marginTop: "30px" }}>
         <Grid md={3} item className={classes.grid}>
           <h3 className={classes.h3}>Languages</h3>
           {renderResult(languages, "right")}

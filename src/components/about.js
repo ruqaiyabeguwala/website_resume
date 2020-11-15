@@ -95,8 +95,8 @@ export default function AutoGrid() {
                 happiness of clearing a bug or make a code work(If you are a
                 developer too, I hope you understand the bliss). It has been
                 great till now but I would appreciate some more adventures in my life.
-                I am looking for a position as <b>Frontend developer</b> where I can
-                create some more happiness for you and afcourse for me too. If
+                I am looking for a position as <b>MERN stack developer</b> where I can
+                create some more happiness for you and ofcourse for me too. If
                 you have any opportunity or think someone else might have for
                 me, please feel free to <b>connect</b>. I would love to work as a <b>freelancer
                 </b> as well.

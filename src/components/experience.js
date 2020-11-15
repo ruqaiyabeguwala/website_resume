@@ -79,9 +79,9 @@ export default function Experience() {
               is a huge project but in laymen terms LFG deals with all types of
               insurance products; whether it is Life Insurance or Term
               Insurance or Annuities. I work with the Life team. My role in the
-              project is towards enhancement; by changing UI using HTML, CSS, Bootstrap
-              etc., managing and changing state using ReactJs and Redux and unit testing 
-              using Jest and Enzyme. 
+              project is towards enhancement; by managing and changing state using ReactJs and Redux and unit testing 
+              using Jest and Enzyme. I also help maintaining connection between ReactJs and 
+              MongoDB using NodeJs/ExpressJs and test using Chai and Mocha.
             </p>
           </Typography>
         </div>

@@ -4,12 +4,12 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import react from "./../assets/img/react.jpg";
 import php from "./../assets/img/php.jpg";
-import code from "./../assets/img/coding.jpg";
+import cert from "./../assets/img/cert.jpg";
 import food from "./../assets/img/food.jpg";
 import amcat from "./../assets/img/amcat.jpg";
 import spot from "./../assets/img/spot.jpg";
-import android from "./../assets/img/Android.jpg";
-import dummy from "./../assets/img/dummy.jfif";
+import android from "./../assets/img/android.jpg";
+import hack from "./../assets/img/hacktech.jpg";
 import aos from "aos";
 import "aos/dist/aos.css";
 
@@ -121,14 +121,14 @@ const tileData = [
     text: "Completed PHP certification from IDS Websoft, Bhopal",
   },
   {
-    img: code,
+    img: cert,
     title: "abc",
-    text: "Completed training in Coding and algorithms provided by Udemy",
+    text: "Acheived appreciation certificate for performing well in project by the client",
   },
   {
-    img: dummy,
+    img: hack,
     title: "abc",
-    text: "Appeared in Hacking seminar organised by MANIT, Bhopal",
+    text: "Appeared in Hacktech bootcamp organised by MANIT, Bhopal",
   },
 ];
 export default function Achievement() {

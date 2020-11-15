@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc81c6e133a12b7ae97ac545aa380a34",
+    "revision": "244c1be5dbc768fd3bb69f32652b333f",
     "url": "/website_resume/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website_resume/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "63655a965aff5df71254",
+    "revision": "6d2c8d3b685d13938755",
     "url": "/website_resume/static/css/main.23e2db3c.chunk.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website_resume/static/js/2.ec0d093e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63655a965aff5df71254",
-    "url": "/website_resume/static/js/main.af573d11.chunk.js"
+    "revision": "6d2c8d3b685d13938755",
+    "url": "/website_resume/static/js/main.43643c3b.chunk.js"
   },
   {
     "revision": "93cfd6719ed7b7264e8a",
     "url": "/website_resume/static/js/runtime-main.ffa01c99.js"
   },
   {
-    "revision": "1878af43317d9acc162d099ba9e162f4",
-    "url": "/website_resume/static/media/Android.1878af43.jpg"
-  },
-  {
     "revision": "4c7b41cd55be0956132dd1e66ad07ff6",
     "url": "/website_resume/static/media/amcat.4c7b41cd.jpg"
+  },
+  {
+    "revision": "4dd758f53924e68f01ce04758d5c5517",
+    "url": "/website_resume/static/media/android.4dd758f5.jpg"
   },
   {
     "revision": "98872e79fb4a5503f56aaee90993ba0b",
@@ -44,16 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website_resume/static/media/blur.1d75e2df.gif"
   },
   {
+    "revision": "c3d32703000a58d1e5c48799394ee0d3",
+    "url": "/website_resume/static/media/cert.c3d32703.jpg"
+  },
+  {
     "revision": "1d24d52aa11a786f880d37654df51160",
     "url": "/website_resume/static/media/clg.1d24d52a.png"
-  },
-  {
-    "revision": "03da84aa05846402a0100e092ed644ed",
-    "url": "/website_resume/static/media/coding.03da84aa.jpg"
-  },
-  {
-    "revision": "38b31cd920334083cb31c49cfa98c4b6",
-    "url": "/website_resume/static/media/dummy.38b31cd9.jfif"
   },
   {
     "revision": "c8afbe55259d40302275f12e14ec2793",
@@ -64,12 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website_resume/static/media/giphy3.7067c29f.gif"
   },
   {
+    "revision": "204a03b8c79e8fcad7eb4cad162dcfa6",
+    "url": "/website_resume/static/media/hacktech.204a03b8.jpg"
+  },
+  {
     "revision": "4afc3715af12e6b7c251eba61fc565b9",
     "url": "/website_resume/static/media/medical.4afc3715.jpg"
   },
   {
-    "revision": "cb6568679153085e6e2d59730e3f1316",
-    "url": "/website_resume/static/media/php.cb656867.jpg"
+    "revision": "3849b2970ff46ff9ce6657912b8c131b",
+    "url": "/website_resume/static/media/php.3849b297.jpg"
   },
   {
     "revision": "6b584c23385fc508cd137b8ed718b4a1",
